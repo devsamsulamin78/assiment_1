@@ -34,7 +34,7 @@
 
 .banner_container {
     height: 652px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -201,6 +201,7 @@
     margin-top: 50px;
     width: 1076px;
     height: 550px;
+    border-radius: 15px;
 }
 
 
@@ -261,4 +262,63 @@
 .tar_card a {
     color: black;
     padding-top: 20px;
+}
+
+
+
+.footer_container {
+    background-image: url(../assets/handshake.jpg);
+    height: 300px;
+    margin: 20px 60px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+footer h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+.input_from {
+    text-align: center;
+    margin-top: 40px;
+  
+}
+
+
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.sub_footer {
+    background-color:bisque;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 30px 60px;
+
+}
+.sub_footer h2 {
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.icon a {
+    margin-left: 10px;
 }
